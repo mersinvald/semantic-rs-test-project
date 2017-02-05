@@ -15,7 +15,7 @@ script:
       true
 
 after_success:
-  - travis-after-all && echo "All fine, let's publish"
+  - /home/travis/.cargo/bin/travis-after-all && echo "All fine, let's publish"
 
 notifications:
   email: false
