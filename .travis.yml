@@ -8,7 +8,7 @@ rust:
 
 before_script:
   - |
-      cargo install --git https://github.com/badboy/travis-after-all-rs
+      cargo install --force --git https://github.com/badboy/travis-after-all-rs
 
 script:
   - |
